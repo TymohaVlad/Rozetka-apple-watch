@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vladyslav Tymoshenko</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #fff;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    main {
+        margin-top: 127px;
+    }
+
+    h2 {
+        font-size: 45px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .header__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__img {
+        width: 100%;
+    }
+
+    .health__section {
+        text-align: center;
+    }
+
+    .desc__img {
+        width: 100%;
+        margin-bottom: 100px;
+        background-color: #f7f7f7;
+    }
+
+    .water__resist {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resist__img {
+        width: 100%;
+    }
+
+    .functions__img {
+        width: 100%;
+    }
+
+    .characteristics__content {
+        display: flex;
+        margin: 0 auto;
+        width: 50%;
+        column-gap: 80px;
+        align-items: center;
+    }
+
+    .textcols-item {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        height: 48%;
+    }
+
+    p {
+        font-size: 100%;
+        border-bottom: solid 1px black;
+    }
+
+    .footer__img {
+        margin-top: 100px;
+        width: 100%;
+    }
+    @media (max-width: 710px) {
+        h2 {
+            font-size: 24px;
+        }
+
+        .characteristics__content {
+            display: flex;
+            margin: 0 auto;
+            column-gap: 20px;
+            align-items: center;
+        }
+
+    }
+
+    @media (max-width: 400px) {
+        h2 {
+            font-size: 18px;
+        }
+
+        .characteristics__content {
+            display: flex;
+            column-gap: 20px;
+            margin: 0 auto;
+            align-items: flex-start;
+            justify-content: space-around;
+        }
+    }
+
+</style>
+
+<body>
+    <main class="main">
+        <div class="container">
+            <header class="header">
+                <div class="header__container">
+                    <div class="header__logo">
+                        <img src="/img/Logo.png" alt="Logo" />
+                    </div>
+                    <div class="header__title">
+                        <h2 class="header__text">Можна закохатися.</h2>
+                        <h2 class="header__text">З багатьох причин.</h2>
+                    </div>
+                    <div class="header__img-container">
+                        <img class="header__img" src="/img/header__img.png" alt="header__img" />
+                    </div>
+                </div>
+            </header>
+            <section class="description__section">
+                <div class="description__content">
+                    <div class="health__section">
+                        <h2 class="description__title">
+                            Основні функції для підтримання здоров’я, безпеки й активного
+                            способу життя.
+                        </h2>
+                    </div>
+                    <div class="health__img">
+                        <img class="desc__img" src="./img/description__img_1.png" alt="desctiption__img" />
+                    </div>
+                    <div class="water__resist">
+                        <h2 class="water__resist-title">Захист від води</h2>
+                        <img class="resist__img" src="/img/description__img_2.png" alt="desctiption__img" />
+                    </div>
+                    <div class="functions">
+                        <img class="functions__img" src="/img/description__img_3.png" alt="desctiption__img" />
+                    </div>
+                </div>
+            </section>
+
+            <section class="characteristics">
+                <h2 class="characteristics__title">Основні характеристики</h2>
+                <div class="characteristics__content">
+                    <div class="textcols-item">
+                        <p class="right__collum-text">
+                            Відповідайте на дзвінки та повідомлення просто із зап’ястя
+                        </p>
+                        <hr>
+                        <p class="right__collum-text">
+                            До 20% швидший за попередній Apple Watch SE
+                        </p>
+                        <p class="right__collum-text">
+                            Розширені функції безпеки, зокрема Виявлення падіння, Сигнал SOS і
+                            Виявлення аварій
+                        </p>
+                        <p class="right__collum-text">
+                            Відстежуйте свою активність протягом дня з Apple Watch, а потім
+                            переглядайте тенденції в додатку «Фітнес» на iPhone
+                        </p>
+                        <p class="right__collum-text">
+                            Покращений додаток «Тренування» з удосконаленими підходами до
+                            вправ
+                        </p>
+                    </div>
+                    <div class="textcols-item">
+                        <p class="left__collum-text">
+                            Отримуйте сповіщення про високий, низький і порушений серцевий
+                            ритм
+                        </p>
+                        <p class="left__collum-text">
+                            Слухайте улюблену музику, подкасти й аудіокниги (для використання
+                            в моделях GPS)
+                        </p>
+                        <p class="left__collum-text">Захист від води</p>
+                        <p class="left__collum-text">
+                            Відстеження сну дає змогу дізнатися, скільки часу ви перебували у
+                            фазах швидкого, повільного та глибокого сну
+                        </p>
+                        <p class="left__collum-text">
+                            watchOS 9 підтримує покращений додаток «Тренування», новий додаток
+                            «Ліки», фази сну та дає змогу краще відстежувати ритм серця
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer__img-container">
+                    <img class="footer__img" src="./img/footer-img.png" alt="footer__img" />
+                </div>
+            </footer>
+        </div>
+    </main>
+</body>
+
+</html>
